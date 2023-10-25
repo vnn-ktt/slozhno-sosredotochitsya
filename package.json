@@ -1,0 +1,20 @@
+{
+	"name": "slozhno-sosredotochitsya",
+	"version": "1.0.0",
+	"description": "yandex practicum main project #3",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier --write './src/**/*.{html,css,js}'",
+		"lint": "stylelint --fix \"./src/**/*.css\"",
+		"fix": "npm run format && npm run lint"
+	},
+	"author": "Ivan Platunov",
+	"license": "ISC",
+	"browserslist": [
+		"last 2 versions"
+	],
+	"devDependencies": {
+		"prettier": "^3.0.3",
+		"stylelint": "^15.10.3"
+	}
+}

@@ -21,5 +21,5 @@
 
 ## Контакты
 
-Телеграм: <https://t.me/vnn_ktt>
-E-mail: <vanya.platun@yadnex.ru>
+-  Телеграм: <https://t.me/vnn_ktt>
+-  E-mail: <vanya.platun@yadnex.ru>
