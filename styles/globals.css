@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-size: 16px;
+}
+
 body {
 	min-inline-size: 375px;
 	max-inline-size: 1440px;
@@ -37,4 +41,5 @@ a {
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
+	cursor: pointer;
 }
