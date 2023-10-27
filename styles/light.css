@@ -1,15 +1,32 @@
-:root {
-	--font: 'IBM Plex mono', arial, sans-serif;
-	--font-color-main: #353430;
-	--font-color-title: #ffc2e6;
-	--color-main: #fff1f7;
+.page.theme_light {
+	--color: #353430;
+	--color-h1: #ffc2e6;
 	--color-accent: #ff8dcb;
 	--cover-img: url(../imgs/cover-image-light.png);
+	color: var(--color);
+	background: var(--cover-img) center / cover no-repeat fixed;
 }
 
-.page.theme_light {
-	/* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+.page.theme_light .page-title {
+	color: var(--color-h1);
+}
+
+.page.theme_light .title-decor {
+	background-color: var(--color-accent);
+}
+
+.page.theme_light .header__title {
+	text-shadow: 4px 4px 0 var(--color-accent);
+}
+
+.page.theme_light .header__theme-menu-button {
+	color: var(--color);
+}
+
+.page.theme_light .header__theme-menu-button_active {
+	border: 1px solid var(--color);
+}
+
+.page.theme_light .footer__title {
+	text-shadow: 2px 2px 0 var(--color-accent);
 }

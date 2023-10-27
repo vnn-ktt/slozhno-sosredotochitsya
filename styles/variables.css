@@ -1,8 +1,7 @@
 :root {
 	--font: 'IBM Plex mono', arial, sans-serif;
-	--font-color-main: #353430;
-	--font-color-title: #ffc2e6;
-	--color-main: #fff1f7;
-	--color-accent: #ff8dcb;
-	--cover-img: url(../imgs/cover-image-light.png);
+	--page-padding: 10px;
+	--page-row-gap: 40px;
+	--main-row-gap: 50px;
+	--gallery-gap: 10px;
 }
