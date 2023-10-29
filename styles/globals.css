@@ -9,9 +9,10 @@ html {
 }
 
 body {
-	min-inline-size: 375px;
-	max-inline-size: 1440px;
+	min-inline-size: var(--inline-size-mobile);
+	max-inline-size: var(--inline-size-page-max);
 	margin: 0 auto;
+	padding: 0;
 }
 
 h1,
