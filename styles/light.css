@@ -1,17 +1,7 @@
-:root .theme_light {
-	--color: #353430;
-	--color-h1: #ffc2e6;
-	--color-accent: #ff8dcb;
-	--color-decorative: var(--color);
-	--cover-img: url(../imgs/cover-image-light.png);
-}
-
-@media (prefers-color-scheme: light) {
-	:root .theme_auto {
-		--color: #353430;
-		--color-h1: #ffc2e6;
-		--color-accent: #ff8dcb;
-		--color-decorative: var(--color);
-		--cover-img: url(../imgs/cover-image-light.png);
-	}
+:root {
+  --color: #353430;
+  --color-h1: #ffc2e6;
+  --color-accent: #ff8dcb;
+  --color-decorative: var(--color);
+  --cover-img: url(../imgs/cover-image-light.png);
 }

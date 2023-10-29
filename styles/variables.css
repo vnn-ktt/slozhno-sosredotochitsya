@@ -1,10 +1,10 @@
 :root {
-	--font: 'IBM Plex mono', arial, sans-serif;
-	--inline-size-tablet: 48rem;
-	--inline-size-desktop: 64rem;
-	--inline-size-page-max: 90rem;
-	--page-padding: 10px;
-	--page-row-gap: 40px;
-	--main-row-gap: 50px;
-	--gallery-gap: 10px;
+  --font: 'IBM Plex mono', monospace;
+  --inline-size-tablet: 48rem;
+  --inline-size-desktop: 64rem;
+  --inline-size-page-max: 90rem;
+  --page-padding: 10px;
+  --page-row-gap: 40px;
+  --main-row-gap: 50px;
+  --gallery-gap: 10px;
 }
