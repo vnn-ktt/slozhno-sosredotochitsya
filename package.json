@@ -4,8 +4,8 @@
 	"description": "yandex practicum main project #3",
 	"main": "index.js",
 	"scripts": {
-		"format": "prettier --write './src/**/*.{html,css,js}'",
-		"lint": "stylelint --fix \"./src/**/*.css\"",
+		"format": "prettier --write './**/*.{html,css,js}'",
+		"lint": "stylelint --fix \"./**/*.css\"",
 		"fix": "npm run format && npm run lint"
 	},
 	"author": "Ivan Platunov",
