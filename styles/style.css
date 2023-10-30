@@ -166,13 +166,19 @@
 }
 
 .header__title {
-  text-shadow: 4px 4px 0 var(--color-accent);
+  text-shadow: 4px 4px 0 var(--color-shadow-h1);
 }
 
 @media screen and (width >= 48rem) {
   .header__title {
     position: relative;
     left: calc(var(--page-padding) * -1);
+  }
+}
+
+@media screen and (width >= 64rem) {
+  :root {
+    --color-shadow-h1: #ff0070;
   }
 }
 
@@ -380,5 +386,5 @@
 .footer__title {
   justify-self: center;
   align-self: center;
-  text-shadow: 2px 2px 0 var(--color-accent);
+  text-shadow: 2px 2px 0 var(--color-shadow-h1);
 }

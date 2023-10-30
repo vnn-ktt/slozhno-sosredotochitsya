@@ -1,6 +1,7 @@
 :root .theme_dark {
   --color: #f1b2ce;
   --color-h1: #db00ff;
+  --color-shadow-h1: #ff0070;
   --color-accent: #ff0070;
   --color-font-on-accent: #000028;
   --color-decorative: var(--color-accent);
@@ -69,6 +70,7 @@
   :root .theme_auto {
     --color: #f1b2ce;
     --color-h1: #db00ff;
+    --color-shadow-h1: #ff0070;
     --color-accent: #ff0070;
     --color-font-on-accent: #000028;
     --color-decorative: var(--color-accent);

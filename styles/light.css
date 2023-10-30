@@ -1,6 +1,7 @@
 :root {
   --color: #353430;
   --color-h1: #ffc2e6;
+  --color-shadow-h1: #ff8dcb;
   --color-accent: #ff8dcb;
   --color-decorative: var(--color);
   --cover-img: url(../imgs/cover-image-light.png);
